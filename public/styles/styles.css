@@ -1,0 +1,41 @@
+#yell-logo {
+    width: 150px;
+}
+
+.navbar {
+    color: white;
+}
+
+#register {
+    float: right;
+}
+
+#spartan_search {
+    position: relative;
+    top: 95px;
+    background-image: url("../img/spartan.jpg");
+    background-size: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);  
+    height: 630px;
+}
+
+.search_form {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-group {
+    padding: 2%;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
