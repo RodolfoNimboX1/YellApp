@@ -32,7 +32,7 @@
     text-align: center;
 }
 
-.input-group {
+#busqueda {
     padding: 2%;
     width: 50%;
     position: absolute;
@@ -63,8 +63,10 @@
 
 .nav-item {
     display: block;
-    height: 150px;
+    height: 100px;
     text-align: center;
+    border-right: solid 1px #28a745;
+    line-height: 1;
 }
 
 .fa-crosshairs {
@@ -104,7 +106,51 @@
 #agenda_jugador {
     position: relative;
     top: 80px;
-    height: 400px;
+    height: 380px;
     overflow: hidden;
-    background: #343a40!important;
+    background: white!important;
+    color:  #343a40;
+}
+
+#container_agenda {
+    padding-top: 3%;
+}
+
+#hrs {
+    width: 37%;
+    padding-top: 2%;
+}
+
+#rango_uno {
+    width: 40%;
+    float: left;
+}
+
+#rango_dos {
+    width: 40%;
+    float: right;
+}
+
+#final {
+    float: right;
+}
+
+#dias {
+    position: absolute;
+    left: 11.5%;
+    bottom: 20%;
+}
+
+#halo_map {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 380px;
+}
+
+#agendar {
+    float: right;
+    position: absolute;
+    left: 41.4%;
+    bottom: 7%;
 }

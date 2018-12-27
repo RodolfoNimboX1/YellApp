@@ -31,16 +31,16 @@
         <div class="search_spartan">
                 <h1>Construye tu compañía Spartan</h1>
                 <h6>Busca jugadores, consulta su desempeño y envíale un mensaje</h6>
-                <div class="input-group input-group-lg">
+                <div class="input-group input-group-lg" id="busqueda">
                         <input type="text" class="form-control" placeholder="Busca por Juego de Halo..." aria-label="gamertag" aria-describedby="button-addon">
                         <div class="input-group-append">
-                          <button class="btn btn-outline-danger" type="button" id="button-addon">Buscar</button>
+                          <button class="btn btn-outline-primary" type="button" id="button-addon">Buscar</button>
                         </div>
                 </div>
         </div>
 
         <div class="container" id="how_it_works">
-                <h4 id="why_header">Crea un equipo de juego balanceado para cumplir objetivos</h4>
+                <h5 id="why_header">Crea un equipo de juego balanceado para cumplir objetivos</h5>
                 <div class="why_search">
                         <ul class="nav nav-pills nav-fill">
                             <li class="nav-item"> 
@@ -81,29 +81,46 @@
 </div>
 
 <section id="agenda_jugador">
-    <span>Aquí el usuario podrá:</span>
-    <ul>
-        <li>Elegir un juego de Halo</li>
-        <li>Buscar un listado de jugadores para ese juego</li>
-        <li>contiene imagen</li>
-        <li>contiene lista explicando el feature</li>
-    </ul>
+<div class="container" id="container_agenda">
+        <h2>Agenda un Juego hoy mismo</h2>
 
-<h2>Agenda un Juego hoy mismo</h2>
-
-<form>
-        <div class="form-group">
-          <select class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-    <button type="button" class="btn btn-primary">Agendar Juego</button>
-</form>
-
+        <form id="hrs">
+                <label id="inicio">Hora de Inicio</label>
+                <label id="final">Hora de Finalización</label>
+                <div class="form-group">
+                  <select class="form-control" id="rango_uno">
+                    <option></option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                  <select class="form-control" id="rango_dos">
+                    <option></option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <br>
+                <br>
+                <label>Días de Juego</label>
+                <div class="input-group mb-3" id="dias">
+                        <div class="input-group-prepend">
+                          <button class="btn btn-outline-primary" type="button">Lunes</button>
+                          <button class="btn btn-outline-primary" type="button">Martes</button>
+                          <button class="btn btn-outline-primary" type="button">Miercoles</button>
+                          <button class="btn btn-outline-primary" type="button">Jueves</button>
+                          <button class="btn btn-outline-primary" type="button">Viernes</button>
+                          <button class="btn btn-outline-primary" type="button">Sábado</button>
+                          <button class="btn btn-outline-primary" type="button">Domingo</button>
+                        </div>
+                </div>
+        </form>
+        <img id="halo_map" src="http://www.thatvideogameblog.com/wp-content/uploads/2007/10/halo3mpmaps.jpg" />
+</div>
+<button class="btn btn-primary" type="button" id="agendar">Agendar Juego</button>
 </section>
 
 <section id="gamer_stats_search">
