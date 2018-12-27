@@ -144,8 +144,23 @@
 #halo_map {
     position: absolute;
     right: 0%;
-    top: 0%;
-    height: 380px;
+    top: 4%;
+    height: 360px;
+
+    object-fit: cover;
+    filter: contrast(120%);
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    display: block;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -10px;
+}
+
+#halo_map:hover img {
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+#halo_map:hover img, #halo_map:hover {
+    margin-top: 0;
 }
 
 #agendar {
@@ -153,4 +168,72 @@
     position: absolute;
     left: 41.4%;
     bottom: 7%;
+}
+
+#competitive_search {
+    position: relative;
+    top: 80px;
+    height: 223px;
+    overflow: hidden;
+    background: #343a40!important;
+    color: white;
+}
+
+#competitive_section {
+    padding-top: 2%;
+    position: absolute;
+    left: 28%;
+}
+
+#competitive {
+    padding-top: 2%;
+    width: 50%;
+}
+
+#competir {
+    position: absolute;
+    left: 34%;
+}
+
+#spartan_one {
+    position: absolute;
+    top: 0%;
+    right: 22%;
+    height: 224px;
+}
+
+#spartan_two {
+    position: absolute;
+    top: 0%;
+    right: 112%;
+    height: 224px;
+}
+
+#social_proof {
+    position: relative;
+    top: 80px;
+    height: 305px;
+}
+
+#social_section {
+    padding-top: 2%;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    background: #17a2b8;
+    height: 200px;
+}
+
+#register_gamer {
+    position: relative;
+    top: 80px;
+    height: 200px;
+}
+
+#footer {
+    position: relative;
+    top: 80px;
+    height: 100px;
+    background-color: #343a40!important;
 }
