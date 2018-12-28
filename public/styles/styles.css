@@ -2,8 +2,9 @@
     width: 120px;
 }
 
-.navbar {
+#yell_brand {
     color: white;
+    width: 100%;
 }
 
 #register {
@@ -17,7 +18,6 @@
     background-image: url("../img/spartan.jpg");
     background-size: 100%;
     filter: blur(3px);
-    -webkit-filter: blur(3px); 
 }
 
 .search_spartan {
@@ -65,33 +65,28 @@
     display: block;
     height: 100px;
     text-align: center;
-    border-right: solid 1px #28a745;
+    border-right: solid 1px red;
     line-height: 1;
 }
 
-.fa-crosshairs {
-    font-size: 60px;
-    color: #28a745;
+#spartan_stats {
+    height: 100px;
 }
 
-.fa-gamepad {
-    font-size: 60px;
-    color: #28a745;
+#champion {
+    height: 100px;
 }
 
-.fa-trophy {
-    font-size: 60px;
-    color: #28a745;
+#hcs {
+    height: 100px;
 }
 
-.fa-comments {
-    font-size: 60px;
-    color: #28a745;
+#protector {
+    height: 100px;
 }
 
-.fa-calendar-check {
-    font-size: 60px;
-    color: #28a745;
+#clutch_kill {
+        height: 100px;
 }
 
 .thing {
@@ -108,7 +103,8 @@
     top: 80px;
     height: 380px;
     overflow: hidden;
-    background: white!important;
+    background-image: url("../img/cement.jpg");
+    background-size: 80%;
     color:  #343a40;
 }
 
@@ -174,8 +170,8 @@
     position: relative;
     top: 80px;
     height: 223px;
-    overflow: hidden;
-    background: #343a40!important;
+    background: url("../img/wallpaper.jpg");
+    background-size: 40%;
     color: white;
 }
 
@@ -199,20 +195,22 @@
     position: absolute;
     top: 0%;
     right: 22%;
-    height: 224px;
+    height: 223px;
 }
 
 #spartan_two {
     position: absolute;
     top: 0%;
     right: 112%;
-    height: 224px;
+    height: 223px;
 }
 
 #social_proof {
     position: relative;
     top: 80px;
     height: 305px;
+    background-image: url("../img/cement.jpg");
+    background-size: 100%;
 }
 
 #social_section {
@@ -220,15 +218,29 @@
     text-align: center;
 }
 
-#carouselExampleIndicators {
-    background: #17a2b8;
-    height: 200px;
+.d-block {
+    width: 50px;
 }
 
 #register_gamer {
     position: relative;
     top: 80px;
-    height: 200px;
+    height: 270px;
+    background-image: url("../img/register_form.png");
+    background-size: 100%;
+}
+
+.registration_section {
+    position: absolute;
+    left: 39%;
+    top: 50%;
+    color: #343a40;
+}
+
+#register_btn {
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
 }
 
 #footer {
@@ -236,4 +248,8 @@
     top: 80px;
     height: 100px;
     background-color: #343a40!important;
+}
+
+.d-block {
+    height: 200px;
 }
